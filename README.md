@@ -1,6 +1,8 @@
 # media-controls
 Crossbrowser controls for media elements (video, audio)
 
+[demo](https://germanbisurgi.github.io/media-controls/.)
+
 # example code
 
 ```html
