@@ -20,6 +20,8 @@ body {
 i {
 	color: #eee;
 	cursor: pointer;
+	font-size: 30px;
+	width: 100%;
 }
 
 i:hover {
