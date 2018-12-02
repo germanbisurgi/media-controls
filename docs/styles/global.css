@@ -1,0 +1,34 @@
+body {
+	background: #222;
+}
+
+.media-controls {
+	color: #eee;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	z-index: 2;
+}
+
+.seek-bar {
+	position: relative;
+	top: -4px;
+}
+
+i {
+	color: #eee;
+	cursor: pointer;
+}
+
+i:hover {
+	color: #fff;
+}
+
+video {
+	width: 100%;
+	height: -webkit-fill-available;
+	height: -moz-available;
+	height: fill-available;
+}

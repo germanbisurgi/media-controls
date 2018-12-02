@@ -1,36 +1,3 @@
-# media-controls
-Crossbrowser controls for media elements (video, audio)
-
-# example code
-
-```html
-<video class="video" src="assets/videos/video.mp4" width="320" height="240"></video>
-    <div class="media-controls flex-row">
-      <div class="flex-xs-1">
-        <i class="play fas fa-play"></i>
-      </div>
-      <div class="flex-xs-1">
-        <i class="pause fas fa-pause"></i>
-      </div>
-      <div class="flex-xs-1">
-        <i class="stop fas fa-stop"></i>
-      </div>
-      <div class="flex-xs-1">
-        <i class="mute fa fa-volume-mute"></i>
-      </div>
-      <div class="flex-xs-2">
-        <span class="current-time">0.0</span> / <span class="duration">0.0</span>
-      </div>
-      <div class="flex-xs-5">
-        <input class="seek-bar" type="range" value="0" step="0.1" max="100">
-      </div>
-      <div class="flex-xs-1">
-        <i class="fullscreen fas fa-expand"></i>
-      </div>
-    </div>
-```
-
-```javascript
 window.addEventListener('load', function() {
 
     var media = document.querySelector('.video');
@@ -91,4 +58,3 @@ window.addEventListener('load', function() {
     }
 
 })
-```

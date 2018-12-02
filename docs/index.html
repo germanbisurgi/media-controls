@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>MediaControls</title>
+  </head>
+  <body>
+    <video class="video" src="assets/videos/video.mp4" width="320" height="240"></video>
+    <div class="media-controls flex-row">
+      <div class="flex-xs-1">
+        <i class="play fas fa-play"></i>
+      </div>
+      <div class="flex-xs-1">
+        <i class="pause fas fa-pause"></i>
+      </div>
+      <div class="flex-xs-1">
+        <i class="stop fas fa-stop"></i>
+      </div>
+      <div class="flex-xs-1">
+        <i class="mute fa fa-volume-mute"></i>
+      </div>
+      <div class="flex-xs-2">
+        <span class="current-time">0.0</span> / <span class="duration">0.0</span>
+      </div>
+      <div class="flex-xs-5">
+        <input class="seek-bar" type="range" value="0" step="0.1" max="100">
+      </div>
+      <div class="flex-xs-1">
+        <i class="fullscreen fas fa-expand"></i>
+      </div>
+    </div>
+    <script src="scripts/media-control.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
